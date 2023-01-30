@@ -49,7 +49,7 @@ header{
 header .container-header{
     padding-top: 150px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 180px;
     /* test */
 }
 
@@ -93,5 +93,249 @@ header .container-header .header-inner .header-right{
 
 /* main */
 
+main{
+    margin-bottom: 100px;
+}
+
+main .main-centered{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+main .main-centered .title-main{
+    background-color: green;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    max-width: 500px;
+    height: 40px;
+    /* test */
+}
+
+
+main .main-centered .select-planes{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    margin-bottom: 20px;
+    /* test */
+}
+
+main .main-centered .select-planes .plane-left{
+    width: calc(50% - 1em);
+    margin-right: 1em ;
+    background-color: red;
+}
+
+main .main-centered .select-planes .plane-right{
+    width: calc(50% - 1em);
+    margin-left: 1em;
+    background-color: red;
+
+}
+
+/* plane list */
+main .main-centered .container-plane-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+main .main-centered .container-plane-flex .container-list{
+    width: 30%;
+    height: 500px;
+    background-color: green;
+    /* test */
+}
+
+
+/*/ plane list */
+
+/* enterpise */
+main .main-centered .container-enterprise {
+    border: 1px solid #00000075;
+    margin-bottom: 90px;
+}
+
+
+main .main-centered .container-enterprise .container-enterprise-top-flex{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #00000075;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+main .main-centered .container-enterprise .container-enterprise-top-flex .top-enterprise{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    /* test */
+}
+
+main .main-centered .container-enterprise .contain-head-enterprise{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+main .main-centered .container-enterprise .contain-head-enterprise .title-enterprise{
+    background-color: green;
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    /* test */
+}
+
+
+main .main-centered .container-enterprise .contain-head-enterprise .btn-enterprise{
+    background-color: green;
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+main .main-centered .container-enterprise span{
+    margin: 1em ;
+}
+
+main .main-centered .container-enterprise p{
+    margin: 1.5em 1em;
+    max-width: 550px;
+    line-height: 26px;
+}
+/* /enterpise */
+
+
+ /* contacts */
+main .main-centered .contacts-container{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0.4);
+    width: 100%;
+    margin-bottom: 90px;
+    /* test */
+}
+
+main .main-centered .contacts-container .image-contacts{
+    width: calc(50% - 20px);
+    margin: 10px;
+    background-color: green;
+    /* test */
+}
+
+main .main-centered .contacts-container .text-contacts{
+    width: calc(30% - 20px);
+    
+    margin: 10px;
+    background-color: green;
+    /* test */
+}
+
+ /* contacts */
+
+ /* cards */
+ main .main-centered .container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+ }
+
+ main .main-centered .container-cards .card{
+    width: calc(100% / 3 - 20px);
+    height: 370px;
+    background-color: green;
+    margin: 10px;
+ }
+
+ /*/ cards */
+
+main .main-centered .link-main{
+    margin-bottom: 90px;
+}
+
+
+/* bottom main */
+
+/* container sponsor */
+
+main .container-sponsor{
+    display: flex;
+}
+
+main .container-sponsor .sponsor-image-container{
+    width: calc(100% / 3);
+    background-color: rgba(255, 0, 0, 0.4);
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .container-sponsor .sponsor-text {
+    width: calc(100% / 3);
+    background-color: rgba(255, 0, 0, 0.4);
+    height: 400px;
+/* test */
+    
+}
+
+main .container-sponsor .sponsor-image-container .sponsor-image{
+    width: calc(100% / 2);
+    background-color: green;
+    height: calc(100% / 2);
+    border: 1px solid black;
+}
+/* container sponsor */
+
+/* sign-container */
+main .sign-container{
+    width: 100%;
+    background-color: #b4d0e7;
+    margin-bottom: 100px;
+    /* test */
+}
+
+main .sign-container .sign-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+main .sign-container .main-centered .text-inner{
+    height: 70px;
+    width: 50%;
+    background-color: green;
+    /* /test */
+}
+
+main .sign-container .main-centered .start-trial{
+    height: 30px;
+    width: 200px;
+    background-color: red;
+}
+/* /sign-container */
+
+
+/* FAQ*/
+main .main-centered .FAQ{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-top: 1px solid black;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+/* FAQ*/
+
+/* bottom main */
 
 /*/ main */
+
+
+
