@@ -338,4 +338,50 @@ main .main-centered .FAQ{
 /*/ main */
 
 
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+
+
+footer  .titles-footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+footer  .titles-footer h3{
+    padding-bottom: 1.5em;
+}
+
+footer  .list-footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .list-footer ul {
+    padding-bottom: 80px;
+}
+
+footer .list-footer ul li{
+    padding-bottom: 0.6em;
+    list-style-type: none;
+    padding-right: 40px;
+   
+}
+
+
+footer .select-lang{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em 0
+}
+
+/* /footer */
 
