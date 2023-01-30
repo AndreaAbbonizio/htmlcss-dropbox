@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* navbar */
+nav{
+    height: 80px;
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+nav .container-nav{
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+    margin: 0 1em;
+}
+
+nav .container-nav .nav-left{
+    width: 200px;
+    height: 100%;
+    background-color: green;
+    /* test */
+}
+
+nav .container-nav .nav-right{
+    width: 200px;
+    height: 100%;
+    background-color: green;
+    /* test */
+}
+
+/* /navbar */
