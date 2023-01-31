@@ -3,15 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
 
+.btn button{
+    padding: .4em 1.2em;
+    border: none;
+}
 
+.btn-primary button{
+    color: white;
+    background-color: #0061ff;
+}
 /* navbar */
 nav{
-    height: 80px;
-    background-color: grey;
+    height: 60px;
     position: fixed;
     width: 100%;
     z-index: 3;
+    background-color: #ffffff;
 }
 
 nav .container-nav{
@@ -23,18 +34,25 @@ nav .container-nav{
 }
 
 nav .container-nav .nav-left{
-    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     height: 100%;
-    background-color: green;
-    /* test */
 }
 
 nav .container-nav .nav-right{
-    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     height: 100%;
-    background-color: green;
-    /* test */
 }
+
+nav .container-nav  a{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 /* /navbar */
 
@@ -267,17 +285,17 @@ main .container-sponsor{
 }
 
 main .container-sponsor .sponsor-image-container{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
     background-color: rgba(255, 0, 0, 0.4);
-    height: 400px;
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 main .container-sponsor .sponsor-text {
-    width: calc(100% / 3);
+    flex-grow: 1;
     background-color: rgba(255, 0, 0, 0.4);
-    height: 400px;
+    
 /* test */
     
 }
