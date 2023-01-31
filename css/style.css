@@ -9,12 +9,12 @@ body{
 
 .btn button{
     padding: .4em 1.2em;
-    border: none;
 }
 
 .btn-primary button{
     color: white;
     background-color: #0061ff;
+    border: none;
 }
 /* navbar */
 nav{
@@ -109,7 +109,7 @@ header .container-header .header-inner .header-right .image-header{
     height: 100%;
 }
 
-header .container-header .header-inner .header-right .image-header image{
+header .container-header .header-inner .header-right .image-header img{
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -133,38 +133,26 @@ main{
 main .main-centered{
     max-width: 1000px;
     margin: 0 auto;
-    background-color: rgba(255, 0, 0, 0.4);
 }
 
 main .main-centered .title-main{
-    background-color: green;
     margin-bottom: 2em;
     font-size: 1.5em;
-    max-width: 500px;
-    height: 40px;
-    /* test */
 }
 
 
 main .main-centered .select-planes{
     display: flex;
-    width: 300px;
-    height: 30px;
-    background-color: green;
     margin-bottom: 20px;
     /* test */
 }
 
 main .main-centered .select-planes .plane-left{
-    width: calc(50% - 1em);
     margin-right: 1em ;
-    background-color: red;
 }
 
 main .main-centered .select-planes .plane-right{
-    width: calc(50% - 1em);
     margin-left: 1em;
-    background-color: red;
 
 }
 
@@ -177,12 +165,52 @@ main .main-centered .container-plane-flex{
 
 main .main-centered .container-plane-flex .container-list{
     width: 30%;
-    height: 500px;
-    background-color: green;
-    /* test */
+    border: 1px solid #cccccc;
 }
 
+main .main-centered .container-plane-flex .container-list .header-list{
+    text-align: center;
+    padding: .4em 0;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 1em;
+}
 
+main .main-centered .container-plane-flex .container-list .body-list{
+    padding: 1em;
+}
+
+main .main-centered .container-plane-flex .container-list .body-list>*{
+    margin-bottom: 1em;
+}
+
+main .main-centered .container-plane-flex .container-list .body-list .last-p{
+    margin-bottom: 2em;
+}
+
+main .main-centered .container-plane-flex .container-list  .row-list{
+    display: flex;
+}
+main .main-centered .container-plane-flex .row-list .icon{
+    margin-right: .4em;
+}
+
+main .main-centered .container-plane-flex .container-list .body-list .btn-primary{
+    text-align: center;
+}
+
+main .main-centered .container-plane-flex .container-list .body-list a{
+    text-decoration: none;
+}
+
+main .main-centered .container-plane-flex .container-list .body-list hr{
+    width: 60px;
+    margin-bottom: 1em;
+    color: #cccccc;
+}
+
+main .main-centered .container-plane-flex .row-list .fa-check{
+    color: blue;
+}
 /*/ plane list */
 
 /* enterpise */
@@ -200,11 +228,8 @@ main .main-centered .container-enterprise .container-enterprise-top-flex{
     margin-bottom: 1.5em;
 }
 
-main .main-centered .container-enterprise .container-enterprise-top-flex .top-enterprise{
-    width: 100px;
-    height: 30px;
-    background-color: green;
-    /* test */
+main .main-centered .container-enterprise .container-enterprise-top-flex .fa-people-group{
+    margin-right: .4em;
 }
 
 main .main-centered .container-enterprise .contain-head-enterprise{
@@ -215,19 +240,13 @@ main .main-centered .container-enterprise .contain-head-enterprise{
 
 
 main .main-centered .container-enterprise .contain-head-enterprise .title-enterprise{
-    background-color: green;
-    height: 40px;
-    width: 150px;
-    margin-left: 10px;
+    margin-left: 1em;
     /* test */
 }
 
 
-main .main-centered .container-enterprise .contain-head-enterprise .btn-enterprise{
-    background-color: green;
-    height: 40px;
-    width: 100px;
-    margin-right: 10px;
+main .main-centered .container-enterprise .contain-head-enterprise .btn{
+    margin-right: 1em;
 }
 
 main .main-centered .container-enterprise span{
@@ -246,9 +265,7 @@ main .main-centered .container-enterprise p{
 main .main-centered .contacts-container{
     display: flex;
     justify-content: space-around;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.4);
-    width: 100%;
+    
     margin-bottom: 90px;
     /* test */
 }
@@ -256,18 +273,29 @@ main .main-centered .contacts-container{
 main .main-centered .contacts-container .image-contacts{
     width: calc(50% - 20px);
     margin: 10px;
-    background-color: green;
-    /* test */
+
 }
+
+main .main-centered .contacts-container .image-contacts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 main .main-centered .contacts-container .text-contacts{
     width: calc(30% - 20px);
-    
+    padding: 1em;
     margin: 10px;
-    background-color: green;
-    /* test */
 }
 
+main .main-centered .contacts-container .text-contacts>*{
+    margin-bottom: 1.5em;
+}
+
+main .main-centered .contacts-container .text-contacts .btn-secondary{
+    text-align: center;
+}
  /* contacts */
 
  /* cards */
@@ -277,11 +305,28 @@ main .main-centered .contacts-container .text-contacts{
     margin-bottom: 100px;
  }
 
- main .main-centered .container-cards .card{
+ main .main-centered .container-cards .card{ 
     width: calc(100% / 3 - 20px);
-    height: 370px;
-    background-color: green;
     margin: 10px;
+ }
+
+ main .main-centered .container-cards .card .image-card{
+    height: 50%;
+ }
+
+ main .main-centered .container-cards .card .image-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+ }
+
+
+ main .main-centered .container-cards .card .text-card{
+    padding: 1em;
+ }
+
+ main .main-centered .container-cards .card .text-card h3{
+    margin-bottom: 1em;
  }
 
  /*/ cards */
@@ -301,27 +346,93 @@ main .container-sponsor{
 
 main .container-sponsor .sponsor-image-container{
     width: calc(100vw / 3);
-    background-color: rgba(255, 0, 0, 0.4);
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 main .container-sponsor .sponsor-text {
+    width: calc(100vw / 3);
     flex-grow: 1;
-    background-color: rgba(255, 0, 0, 0.4);
-    
-/* test */
-    
 }
+
+main .container-sponsor .sponsor-text .contain-text{
+    padding: 0 1em;
+}
+
+
+
+main .container-sponsor .sponsor-text .logo-text{
+    height: 30%;
+}
+
+main .container-sponsor .sponsor-text .logo-text img{
+    height: 80%;
+    object-fit: contain;
+    width: 70%;
+    padding: 1em .4em;
+}
+
+main .container-sponsor .sponsor-text hr{
+    width: 60px;
+    margin-bottom: 1em;
+    color: #cccccc;
+}
+
+main .container-sponsor .sponsor-text p:first-of-type{
+    padding-bottom: 2em;
+}
+
+
 
 main .container-sponsor .sponsor-image-container .sponsor-image{
     width: calc(100% / 2);
-    background-color: green;
     height: calc(100% / 2);
     border: 1px solid black;
+    background-color: #d3b49ba3 ;
 }
+
+main .container-sponsor .sponsor-image-container #back-image{
+    background-color: #a2d39b;
+}
+main .container-sponsor .sponsor-image-container #back-image2{
+    background-color: #0093ce;
+}
+
+main .container-sponsor .sponsor-image-container #back-image3{
+    background-color: #61082b;
+}
+
+main .container-sponsor .sponsor-image-container #back-image4{
+    background-color: #ff1c1c;
+}
+main .container-sponsor .sponsor-image-container #back-image5{
+    background-color: #d5001f;
+}
+
+main .container-sponsor .sponsor-image-container #back-image6{
+    background-color: #b4d0e7;
+}
+
+main .container-sponsor .sponsor-image-container #back-image7{
+    background-color: #0d2481;
+}
+
+main .container-sponsor .sponsor-image-container #back-image8{
+    background-color: #ffd830;
+}
+
+
+main .container-sponsor .sponsor-image-container .sponsor-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    filter: invert(1);
+}
+
 /* container sponsor */
+
+
 
 /* sign-container */
 main .sign-container{
@@ -333,33 +444,26 @@ main .sign-container{
 
 main .sign-container .sign-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 200px;
 }
 
 main .sign-container .main-centered .text-inner{
-    height: 70px;
-    width: 50%;
-    background-color: green;
-    /* /test */
+    max-width: 35%;
+    font-size: 1.2em;
 }
 
-main .sign-container .main-centered .start-trial{
-    height: 30px;
-    width: 200px;
-    background-color: red;
-}
 /* /sign-container */
 
 
 /* FAQ*/
 main .main-centered .FAQ{
-    width: 100%;
-    height: 80px;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 0;
     border-top: 1px solid black;
-    text-align: center;
     border-bottom: 1px solid black;
 }
 
@@ -377,43 +481,49 @@ footer{
 }
 
 
-
-footer  .titles-footer{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
-
-footer  .titles-footer h3{
-    padding-bottom: 1.5em;
-}
-
-footer  .list-footer{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
+footer .container-footer{
+    max-width: 1000px;
     margin: 0 auto;
 }
 
-footer .list-footer ul {
+
+footer .container-footer .list-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container-footer .list-footer ul {
     padding-bottom: 80px;
+    list-style-type: none;
 }
 
-footer .list-footer ul li{
+footer .container-footer .list-footer h3{
+    padding: 80px 0 30px;
+}
+
+footer .container-footer .list-footer ul li a{
     padding-bottom: 0.6em;
-    list-style-type: none;
-    padding-right: 40px;
+    text-decoration: none;
+    color: grey;
    
 }
 
+footer .container-footer hr{
+    width: 100px;
+    margin-bottom: 30px;
+}
 
-footer .select-lang{
+footer .container-footer .select-lang{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 1em 0
+    padding: 1em 0;
+    font-size: .8em;
+    color: grey;
+}
+
+
+footer .container-footer .select-lang .fa-earth-americas{
+    margin-right: 8px;
 }
 
 /* /footer */
