@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Dropbox</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
@@ -19,17 +22,17 @@
                 <div class="logo">
                     <img src="img/logo-small.png" alt="Logo">
                 </div>
-                <a href="#">Perchè Dropbox</a>
-                <a href="#">Funzioni</a>
-                <a href="#">Piani e Prezzi</a>
+                <a class="link" href="#">Perchè Dropbox</a>
+                <a class="link" href="#">Funzioni</a>
+                <a class="link" href="#">Piani e Prezzi</a>
             </div>
             <!-- /navbar-left -->
 
             <!-- navbar-right -->
             <div class="nav-right">
-                <a href="#">Supporto</a>
-                <a href="#">Contatta l'ufficio vendite</a>
-                <a href="#">Accedi</a>
+                <a class="link" href="#">Supporto</a>
+                <a class="link" href="#">Contatta l'ufficio vendite</a>
+                <a class="link" href="#">Accedi</a>
                 <div class="btn btn-primary">
                     <button>Inizia</button>
                 </div>
@@ -59,7 +62,7 @@
                     </div>
                     <p>Annulla in qualsiasi momento</p>
                     <div class="icon-header">
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#jump-page"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                 </div>
     
@@ -86,7 +89,7 @@
                 </h2>
             </div>
 
-            <div class="select-planes">
+            <div class="select-planes" id="jump-page">
 
                 <div class="plane-left">
                     <i class="fa-regular fa-circle-dot"></i> Fatturazione mensile
@@ -139,7 +142,7 @@
                             <button>Prova gratis per 30 giorni</button>
                         </div>
 
-                        <p>oppure <a href="#">acquista ora</a></p>
+                        <p>oppure <a class="link" href="#">acquista ora</a></p>
                         <hr>
                         <p><strong>Punti salienti del piano</strong></p>
 
@@ -202,7 +205,7 @@
                             <button>Prova gratis per 30 giorni</button>
                         </div>
 
-                        <p>oppure <a href="#">acquista ora</a></p>
+                        <p>oppure <a class="link" href="#">acquista ora</a></p>
                         <hr>
                         <p><strong>Punti salienti del piano</strong></p>
 
@@ -292,7 +295,7 @@
                             <button>Prova gratis per 30 giorni</button>
                         </div>
 
-                        <p>oppure <a href="#">acquista ora</a></p>
+                        <p>oppure <a class="link" href="#">acquista ora</a></p>
                         <hr>
                         <p><strong>Punti salienti del piano</strong></p>
 
@@ -590,7 +593,11 @@
                 <div class="icon">
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
+                <div class="text-trasparent">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae. 
+                </div>
             </div>
+
 
             <div class="FAQ">
                 <p>
@@ -598,6 +605,9 @@
                 </p>
                 <div class="icon">
                     <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-trasparent">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae. 
                 </div>
             </div>
 
@@ -607,6 +617,9 @@
                 </p>
                 <div class="icon">
                     <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-trasparent">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae. 
                 </div>
             </div>
 
@@ -629,47 +642,47 @@
             <div class="list-footer">
                 <ul>
                     <li><h3>Dropbox</h3></li>
-                    <li><a href="°">Applicazione Dekstop</a></li>
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Piani</a></li>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Funzioni</a></li>
+                    <li><a class="link" href="#">Applicazione Dekstop</a></li>
+                    <li><a class="link" href="#">Perchè Dropbox</a></li>
+                    <li><a class="link" href="#">Piani</a></li>
+                    <li><a class="link" href="#">Supporto</a></li>
+                    <li><a class="link" href="#">Funzioni</a></li>
                 </ul>
     
                 <ul>
                     <li><h3>Prodotti</h3></li>
-                    <li><a href="°">Applicazione Dekstop</a></li>
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Piani</a></li>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Funzioni</a></li>
+                    <li><a class="link" href="#">Applicazione Dekstop</a></li>
+                    <li><a class="link" href="#">Perchè Dropbox</a></li>
+                    <li><a class="link" href="#">Piani</a></li>
+                    <li><a class="link" href="#">Supporto</a></li>
+                    <li><a class="link" href="#">Funzioni</a></li>
                 </ul>
     
                 <ul>
                     <li><h3>Azienda</h3></li>
-                    <li><a href="°">Applicazione Dekstop</a></li>
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Piani</a></li>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Funzioni</a></li>
+                    <li><a class="link" href="#">Applicazione Dekstop</a></li>
+                    <li><a class="link" href="#">Perchè Dropbox</a></li>
+                    <li><a class="link" href="#">Piani</a></li>
+                    <li><a class="link" href="#">Supporto</a></li>
+                    <li><a class="link" href="#">Funzioni</a></li>
                 </ul>
     
                 <ul>
                     <li><h3>Supporto</h3></li>
-                    <li><a href="°">Applicazione Dekstop</a></li>
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Piani</a></li>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Funzioni</a></li>
+                    <li><a class="link" href="#">Applicazione Dekstop</a></li>
+                    <li><a class="link" href="#">Perchè Dropbox</a></li>
+                    <li><a class="link" href="#">Piani</a></li>
+                    <li><a class="link" href="#">Supporto</a></li>
+                    <li><a class="link" href="#">Funzioni</a></li>
                 </ul>
     
                 <ul>
                     <li><h3>Community</h3></li>
-                    <li><a href="°">Applicazione Dekstop</a></li>
-                    <li><a href="#">Perchè Dropbox</a></li>
-                    <li><a href="#">Piani</a></li>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Funzioni</a></li>
+                    <li><a class="link" href="#">Applicazione Dekstop</a></li>
+                    <li><a class="link" href="#">Perchè Dropbox</a></li>
+                    <li><a class="link" href="#">Piani</a></li>
+                    <li><a class="link" href="#">Supporto</a></li>
+                    <li><a class="link" href="#">Funzioni</a></li>
                 </ul>
             </div>
             <hr>
